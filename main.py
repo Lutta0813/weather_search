@@ -14,8 +14,7 @@ def get_weather(city):
         label['text'] = format_response(weather)
 
     except:
-        label['text'] = 'Server didnt found your city\'s info,\nPlease check your city name correct'
-
+        label['text'] = 'Can\'t found city\'s info from the server,\nPlease check your city\'s name is correct'
 
 def format_response(weather):
     name = weather['name']
