@@ -1,10 +1,5 @@
 import tkinter as tk
 import requests
-
-
-def testfunc(entry):
-    print('entry輸入的內容為:', entry)
-
 # api.openweathermap.org/data/2.5/forecast?q={city name},{country code}
 # c630f497a26fda294b2d21380429ccf6
 
